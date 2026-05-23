@@ -4,6 +4,9 @@ from netmiko import ConnectHandler
 # 1. Read your single combined file
 with open('cmd_file.txt') as f:
     cmd_list = f.read().splitlines()
+    
+# with open('device_file.txt') as f:
+#     device_list = f.read().splitlines()
 
 # 2. Define keywords that indicate a configuration change
 # (You can add more keywords here as you discover them)
