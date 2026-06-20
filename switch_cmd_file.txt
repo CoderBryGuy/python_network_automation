@@ -1,0 +1,14 @@
+          
+show ip int brief
+ip name-server 8.8.8.8
+ip domain-lookup
+
+username test password test
+username jason priv 15 secret jason
+
+vlan 10
+name Python_vlan_10
+vlan 20
+name Python_vlan_20
+vlan 30
+name Python_vlan_30
